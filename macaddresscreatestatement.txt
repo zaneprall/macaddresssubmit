@@ -1,0 +1,7 @@
+CREATE TABLE `MAC` (
+  `common_name` varchar(255) DEFAULT NULL,
+  `hostname` varchar(255) DEFAULT NULL,
+  `MAC` char(20) DEFAULT NULL,
+  `subnet` varchar(255) DEFAULT NULL,
+  `comments` mediumtext DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
